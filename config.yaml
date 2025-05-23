@@ -1,0 +1,33 @@
+DEADZONE: 30
+LOOP_DELAY: 0.01
+YP: 100.0
+calibration: 0
+hsv_lower1:
+- 144
+- 252
+- 29
+hsv_upper1:
+- 78
+- 255
+- 255
+hsv_lower2:
+- 160
+- 142
+- 75
+hsv_upper2:
+- 179
+- 255
+- 255
+
+
+Kp:      6
+Kd:      0.25
+Ki:      0.0     # off while tuning P/D
+DEADZONE: 30
+HYST:    10
+MAX_STEP: 30
+FILTER_ALPHA: 1
+XP:      320    # half your frame‐width (for a 640px image)
+YP:      240    # half your frame‐height (for a 480px image)
+POS_SMOOTH: 0
+I_MAX: 50
