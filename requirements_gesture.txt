@@ -1,0 +1,4 @@
+opencv-python==4.5.5.64
+depthai==2.21.2.0
+mediapipe==0.10.3
+numpy==1.21.6 
