@@ -125,6 +125,9 @@ with dai.Device(pipeline) as device:
         if cnts:
             c = max(cnts, key=cv2.contourArea)
             (x, y), r = cv2.minEnclosingCircle(c)
+            center = (int(x), int(y))
+            radius = int(r)
+            cv2.circle(frame, center, radius, (0,225,0), 2)
             if r > 10:
                 # initialize smoothing on first sight
                 if smooth_x is None:
@@ -179,4 +182,3 @@ with dai.Device(pipeline) as device:
         time.sleep(LOOP_DELAY)
 
     cv2.destroyAllWindows()
-
