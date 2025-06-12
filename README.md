@@ -20,7 +20,7 @@
    - [Future Goal](#future-goal)  
 3. [Features](#features)  
 4. [Hardware List](#hardware-list)  
-5. [Implementation](#implementation)  
+5. [Highlight Implementation](#highlight-implementation)  
    - [Redball Recognition](#redball-recognition)  
    - [Gesture Detection](#gesture-detection)  
    - [ROS2 Integration](#ros2-integration)  
