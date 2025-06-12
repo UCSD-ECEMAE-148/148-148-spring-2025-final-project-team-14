@@ -119,6 +119,7 @@ Turret is able to fire at any potential threat if confirmed by the human operato
 - Safety features are implemented to avoid accidental firing and ensure operation only under authorized conditions.   
 
 ![Redball Recognition](image/red.gif)
+
 *Fig2. Redball Recognition*
 
 ### Gesture Detection
@@ -128,6 +129,7 @@ Turret is able to fire at any potential threat if confirmed by the human operato
 - Gesture detection is processed onboard, enabling intuitive, touch-free control of the vehicle.  
 
 ![Hand Gesture Example](image/Hand_Detection.png)
+
 *Fig3. Hand Gesture Example*
 
 ### ROS2 Integration
@@ -170,6 +172,7 @@ Measures object shift between views to detect obstacles ahead
 Processes depth data and publishes motor commands to control the car
 
 ![Camera and Depth Map](image/Picture5.png)
+
 *Fig4. Camera and Depth Map*
 
 #### Sentry mode
@@ -181,9 +184,11 @@ Turret pans the camera 180 degrees looking for a potential target
 When it catches the red color the turret locks onto the target and traces it movement
 
 ![Screenshot of object tracking](image/Picture6.png)
+
 *Fig5. Screenshot of object tracking*
 
 ![CAD of the projectile launcher housing ](image/Picture8.png)
+
 *Fig6. CAD of the projectile launcher housing*
 
 #### Firing at Target
@@ -193,14 +198,17 @@ Once the turret has locked onto a potential target, the human operator has the o
 -The turret fires for 1 second, firing an average of 4 gels per actuation
 
 ![CAD of trigger actuation mechanism](image/Picture9.png)
+
 *Fig7. CAD of trigger actuation mechanism*
 
 ![Projectile launcher mounted to car ](image/Picture10.jpg)
+
 *Fig8. Projectile launcher mounted to car*
 
 ### Final Gantt
 
 ![Gantt Chart Overall](image/Picture11.png)
+
 *Fig9. Gantt Chart Overall*
 
 What we learned:
