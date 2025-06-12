@@ -181,7 +181,7 @@ Once the turret has locked onto a potential target, the human operator has the o
 -Fires using another servo with a actuation connector which pulls the trigger
 -The turret fires for 1 second, firing an average of 4 gels per actuation
 ![CAD of trigger actuation mechanism](image/Picture9.png)
-![Projectile launcher mounted to car ](image/Picture10.png)
+![Projectile launcher mounted to car ](image/Picture10.jpg)
 
 ## Acknowledgments
 
