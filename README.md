@@ -164,6 +164,7 @@ Car drives straight until it gets close to the wall and automatically comes to a
 Uses OAK-D camera with stereo depth 
 Measures object shift between views to detect obstacles ahead
 Processes depth data and publishes motor commands to control the car
+
 ![Camera and Depth Map](image/Picture5.png)
 
 #### Sentry mode
@@ -173,6 +174,7 @@ Turret pans the camera 180 degrees looking for a potential target
 -The turret’s movement is controlled by two servos, the first controls the yaw and another controls the pitch 
 -C-RAM: Utilizes color masking to follow the color red
 When it catches the red color the turret locks onto the target and traces it movement
+
 ![Screenshot of object tracking](image/Picture6.png)
 ![CAD of the projectile launcher housing ](image/Picture8.png)
 
@@ -181,12 +183,14 @@ When it catches the red color the turret locks onto the target and traces it mov
 Once the turret has locked onto a potential target, the human operator has the option to fire at that target
 -Fires using another servo with a actuation connector which pulls the trigger
 -The turret fires for 1 second, firing an average of 4 gels per actuation
+
 ![CAD of trigger actuation mechanism](image/Picture9.png)
 ![Projectile launcher mounted to car ](image/Picture10.jpg)
 
 ### Final Gantt
 
 ![Gantt Chart Overall](image/Picture11.png)
+
 What we learned:
 -Everything takes longer than you expect
 -Tackling tasks simultaneously is essential
