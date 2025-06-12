@@ -30,7 +30,8 @@
    - [Modes](#modes)  
      - [Driving Mode](#driving-mode)  
      - [Sentry Mode](#sentry-mode)  
-     - [Firing at Target](#firing-at-target)  
+     - [Firing at Target](#firing-at-target)
+   - [Final Gantt](#final-gantt) 
 8. [Acknowledgments](#acknowledgments)  
 9. [Contact](#contact)
 
@@ -182,6 +183,15 @@ Once the turret has locked onto a potential target, the human operator has the o
 -The turret fires for 1 second, firing an average of 4 gels per actuation
 ![CAD of trigger actuation mechanism](image/Picture9.png)
 ![Projectile launcher mounted to car ](image/Picture10.jpg)
+
+### Final Gantt
+
+![Gantt Chart Overall](image/Picture11.png)
+What we learned:
+-Everything takes longer than you expect
+-Tackling tasks simultaneously is essential
+-Need to get our 40 hours in per week 😄
+
 
 ## Acknowledgments
 
