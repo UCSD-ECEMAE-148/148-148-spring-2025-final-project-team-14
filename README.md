@@ -50,7 +50,12 @@
 
 ## Final Project
 
-![Projectile Launcher](image/laucher_prototype.png)
+
+
+<figure>
+  <img src="laucher_prototype.png" alt="Alt text" />
+  <figcaption>Fig1. Projectile Launcher</figcaption>
+</figure>
 
 ## Original Goal
 
